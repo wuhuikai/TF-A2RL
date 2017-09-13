@@ -2,9 +2,6 @@
 [[Project]](https://debangli.github.io/A2RL/)   [[Paper]]()  
 The official implementation for A2-RL: Aesthetics Aware Rinforcement Learning for Automatic Image Cropping
 
-Download model [here](https://drive.google.com/open?id=0Bybnpq8dvwudREJnRWhFbk1rYW8)
-
-example scripts: example.sh
 
 ## Overview
 
@@ -68,7 +65,7 @@ Type `python A2RL.py --help` for a complete list of the arguments.
 ```
 @article{wu2017gp,
   title={A2-RL: Aesthetics Aware Reinforcement Learning for Automatic Image Cropping},
-  author={Debang Li, Wu, Huikai and Zheng, Shuai and Zhang, Junge and Huang, Kaiqi},
+  author={Debang Li, Wu, Huikai and and Zhang, Junge and Huang, Kaiqi},
   year={2017}
 }
 ```

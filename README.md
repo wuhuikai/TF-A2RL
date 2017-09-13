@@ -1,5 +1,5 @@
 # TF-A2RL: Automatic Image Cropping
-[[Project]](https://debangli.github.io/A2RL/)   [[Paper]]()   [[Online Demo]](https://wuhuikai.github.io/TF-A2RL/)    [[Related Work: GP-GAN (for Image Blending)]](https://github.com/wuhuikai/GP-GAN)
+[[Project]](https://debangli.github.io/A2RL/)   [[Paper]]()   [[Online Demo]](https://wuhuikai.github.io/TF-A2RL/)    [[API]](https://algorithmia.com/algorithms/wuhuikai/A2RL)   [[Related Work: GP-GAN (for Image Blending)]](https://github.com/wuhuikai/GP-GAN)
 
 The official implementation for A2-RL: Aesthetics Aware Rinforcement Learning for Automatic Image Cropping
 

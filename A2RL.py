@@ -1,5 +1,6 @@
 from __future__ import absolute_import
 import pickle
+import argparse
 import numpy as np
 import tensorflow as tf
 
@@ -46,8 +47,13 @@ def auto_cropping(origin_image):
         img = crop_input(origin_image, bbox)
 
 if __name__ == '__main__':
-    origin_image = [io.imread('test_images/3846.jpg').astype(np.float32) / 255 - 0.5]
-    results = auto_cropping(origin_image)
-    im = origin_image[0]
-    xmin, ymin, xmax, ymax = results[0]
-    io.imsave('test_images/3846_cropped.jpg', im[ymin:ymax, xmin:xmax]+0.5)
+    parser = argparse.ArgumentParser(description='A2RL: Auto Image Cropping')
+    parser.add_argument('--image_path', required=True, help='Path for the image to be cropped')
+    parser.add_argument('--save_path', required=True, help='Path for saving cropped image')
+    args = parser.parse_args()
+
+    im = io.imread(args.image_path).astype(np.float32) / 255
+    xmin, ymin, xmax, ymax = auto_cropping([im - 0.5])[0]
+
+    io.imsave(args.save_path, im[ymin:ymax, xmin:xmax])
+

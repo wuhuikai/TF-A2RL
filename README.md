@@ -42,8 +42,8 @@ sh example.sh
 
 |Source| VFN+Sliding window | A2-RL | Ground Truth |
 | --- | --- | --- |---|
-| ![](images/readme/1227.png) | ![](images/readme/vfn_1227.png) | ![](images/readme/a2rl_1227.png) | ![](images/readme/gt_1227.png) |
-| ![](images/readme/1644.png) | ![](images/readme/vfn_1644.png) | ![](images/readme/a2rl_1644.png) | ![](images/readme/gt_1644.png) |
-| ![](images/readme/2747.png) | ![](images/readme/vfn_2747.png) | ![](images/readme/a2rl_2747.png) | ![](images/readme/gt_2747.png) |
-| ![](images/readme/2903.png) | ![](images/readme/vfn_2903.png) | ![](images/readme/a2rl_2903.png) | ![](images/readme/gt_2903.png) |
-| ![](images/readme/9036.png) | ![](images/readme/vfn_9036.png) | ![](images/readme/a2rl_9036.png) | ![](images/readme/gt_9036.png) |
+| ![](images/readme/1227.jpg) | ![](images/readme/vfn_1227.jpg) | ![](images/readme/a2rl_1227.jpg) | ![](images/readme/gt_1227.jpg) |
+| ![](images/readme/1644.jpg) | ![](images/readme/vfn_1644.png) | ![](images/readme/output.png) | ![](images/readme/gt_1644.jpg) |
+| ![](images/readme/2747.jpg) | ![](images/readme/vfn_2747.jpg) | ![](images/readme/a2rl_2747.jpg) | ![](images/readme/gt_2747.jpg) |
+| ![](images/readme/2903.jpg) | ![](images/readme/vfn_2903.jpg) | ![](images/readme/a2rl_2903.jpg) | ![](images/readme/gt_2903.jpg) |
+| ![](images/readme/9036.jpg) | ![](images/readme/vfn_9036.jpg) | ![](images/readme/a2rl_9036.jpg) | ![](images/readme/gt_9036.jpg) |

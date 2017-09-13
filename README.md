@@ -47,3 +47,27 @@ sh example.sh
 | ![](images/readme/2747.jpg) | ![](images/readme/vfn_2747.jpg) | ![](images/readme/a2rl_2747.jpg) | ![](images/readme/gt_2747.jpg) |
 | ![](images/readme/2903.jpg) | ![](images/readme/vfn_2903.jpg) | ![](images/readme/a2rl_2903.jpg) | ![](images/readme/gt_2903.jpg) |
 | ![](images/readme/9036.jpg) | ![](images/readme/vfn_9036.jpg) | ![](images/readme/a2rl_9036.jpg) | ![](images/readme/gt_9036.jpg) |
+
+## Requirements
+The code requires the following 3rd party libraries:
+* pickle
+* numpy
+* [skimage](http://scikit-image.org/)
+```bash
+pip install scikit-image
+```
+Details see the official [README](https://github.com/scikit-image/scikit-image) for installing skimage.
+* [TensorFlow](https://www.tensorflow.org/)
+Details see the official [README](https://github.com/tensorflow/tensorflow) for installing TensorFlow. 
+## Command line arguments:
+Type `python A2RL.py --help` for a complete list of the arguments.
+* `--image_path`: path of the input image
+* `--save_path`: path of output image
+## Citation
+```
+@article{wu2017gp,
+  title={A2-RL: Aesthetics Aware Reinforcement Learning for Automatic Image Cropping},
+  author={Debang Li, Wu, Huikai and Zheng, Shuai and Zhang, Junge and Huang, Kaiqi},
+  year={2017}
+}
+```

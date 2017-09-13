@@ -1,7 +1,7 @@
-# TF-A2RL
-[[Project]](https://debangli.github.io/A2RL/)   [[Paper]]()  
-The official implementation for A2-RL: Aesthetics Aware Rinforcement Learning for Automatic Image Cropping
+# TF-A2RL: Automatic Image Cropping
+[[Project]](https://debangli.github.io/A2RL/)   [[Paper]]()   [[Online Demo]](https://wuhuikai.github.io/TF-A2RL/)    [[Related Work: GP-GAN (for Image Blending)]](https://github.com/wuhuikai/GP-GAN)
 
+The official implementation for A2-RL: Aesthetics Aware Rinforcement Learning for Automatic Image Cropping
 
 ## Overview
 
@@ -9,9 +9,11 @@ The official implementation for A2-RL: Aesthetics Aware Rinforcement Learning fo
 | --- | --- | --- | --- | --- | --- | --- |
 | ![](images/readme/source.png) | ![](images/readme/step1.png) | ![](images/readme/step2.png) | ![](images/readme/step3.png) | ![](images/readme/step4.png) | ![](images/readme/step5.png) | ![](images/readme/output.png) |
 
-A2-RL (aka. Aesthetics Aware Reinforcement Learning) is the author's implementation of the RL-based automatic image cropping algorithm described in:  
-"A2-RL: Aesthetics Aware Reinforcement Learning for Automatic Image Cropping"   
+A2-RL (aka. Aesthetics Aware Reinforcement Learning) is the author's implementation of the RL-based automatic image cropping algorithm described in:
+```
+A2-RL: Aesthetics Aware Reinforcement Learning for Automatic Image Cropping   
 Debang Li, Huikai Wu, Junge Zhang, Kaiqi Huang
+```
 
 Given a source image, our algorithm could take actions step by step to find almost the best cropping window on source image. 
 
@@ -63,7 +65,7 @@ Type `python A2RL.py --help` for a complete list of the arguments.
 * `--save_path`: path of output image
 ## Citation
 ```
-@article{wu2017gp,
+@article{li2017a2,
   title={A2-RL: Aesthetics Aware Reinforcement Learning for Automatic Image Cropping},
   author={Debang Li, Wu, Huikai and and Zhang, Junge and Huang, Kaiqi},
   year={2017}

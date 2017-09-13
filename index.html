@@ -1,0 +1,58 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>More Results from Flickr</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/algorithmia-0.2.0.js" type="text/javascript"></script>
+    <script src="js/crop.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="centered jumbotron row">
+    <h1>Demo: Auto Image Cropping by A2RL</h1>
+    <h2>
+        <a href="https://debangli.github.io/A2RL/">[Project]</a>
+        <a href="https://github.com/wuhuikai/TF-A2RL">[Code]</a>
+    </h2>
+</div>
+
+<div class="centered row">
+    <div>
+        <h2>
+            Input Image
+            <button onclick="crop()" class="button button-pill" id="choose">Choose File</button>
+        </h2>
+        <input id="file-input" type="file" name="name" style="display: none;"/>
+    </div>
+    <div>
+        <img src="test_images/3846.jpg" id="src_img">
+    </div>
+</div>
+
+<div class="centered row">
+    <div>
+        <h2>Cropped Image</h2>
+    </div>
+    <div>
+        <img src="test_images/3846_cropped.jpg" id="dst_img">
+    </div>
+    <canvas id="dst_canvas">
+
+    </canvas>
+    <div class='contentBar' id="loading" hidden="True">
+        <div id="block_1" class="barlittle"></div>
+        <div id="block_2" class="barlittle"></div>
+        <div id="block_3" class="barlittle"></div>
+        <div id="block_4" class="barlittle"></div>
+        <div id="block_5" class="barlittle"></div>
+    </div>
+</div>
+
+</body> </html>

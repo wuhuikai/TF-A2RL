@@ -21,7 +21,7 @@ Given a source image, our algorithm could take actions step by step to find almo
 Contact: Hui-Kai Wu (huikaiwu@icloud.com)
 
 ## Getting started
-* Install the TensorFlow
+* Install the python libraries. (See `Requirements`).
 * Download the code from GitHub:
 ```bash
 git clone https://github.com/wuhuikai/TF-A2RL.git

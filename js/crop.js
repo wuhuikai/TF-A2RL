@@ -8,11 +8,22 @@ function crop(){
         if (FileReader && files && files.length) {
             var reader = new FileReader();
             reader.onload = function () {
-                document.getElementById('src_img').src = reader.result
-                document.getElementById('dst_img').src = ''
+                document.getElementById('src_img').hidden = 'True'
+                document.getElementById('dst_img').hidden = 'True'
                 document.getElementById('loading').hidden = ''
                 document.getElementById('choose').disabled = 'disabled'
                 document.getElementById("dst_canvas").hidden = 'True'
+
+                var image = new Image();
+                var c = document.getElementById("src_canvas")
+                c.hidden = ''
+                var ctx = c.getContext("2d");
+                image.onload = function() {
+                    ctx.canvas.width  = image.width;
+                    ctx.canvas.height = image.height;
+                    ctx.drawImage(image, 0, 0, image.width, image.height);
+                };
+                image.src = reader.result
 
                 Algorithmia.client("sim/vFIfNOvubLyPVoNa7L21roe1")
                            .algo("algo://wuhuikai/A2RL")
@@ -34,7 +45,7 @@ function crop(){
                                     ctx.canvas.height = height;
                                     ctx.drawImage(image, xmin, ymin, width, height, 0, 0, width, height);
                                 };
-                                image.src = document.getElementById("src_img").src
+                                image.src = reader.result
                            });
             }
             reader.readAsDataURL(files[0]);

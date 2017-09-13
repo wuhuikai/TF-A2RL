@@ -58,6 +58,7 @@ pip install scikit-image
 ```
 Details see the official [README](https://github.com/scikit-image/scikit-image) for installing skimage.
 * [TensorFlow](https://www.tensorflow.org/)
+
 Details see the official [README](https://github.com/tensorflow/tensorflow) for installing TensorFlow. 
 ## Command line arguments:
 Type `python A2RL.py --help` for a complete list of the arguments.

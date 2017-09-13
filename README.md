@@ -1,5 +1,5 @@
 # TF-A2RL
-[[Project]](https://debangli.github.io/A2RL/)   [[Paper]](https://arxiv.org/abs/1703.07195)  
+[[Project]](https://debangli.github.io/A2RL/)   [[Paper]]()  
 The official implementation for A2-RL: Aesthetics Aware Rinforcement Learning for Automatic Image Cropping
 
 Download model [here](https://drive.google.com/open?id=0Bybnpq8dvwudREJnRWhFbk1rYW8)
@@ -38,7 +38,7 @@ or
 sh example.sh
 ```
 
-## Results compared with baseline methods
+## Results compared with baseline methods (more [results](https://debangli.github.io/A2RL/))
 
 |Source| VFN+Sliding window | A2-RL | Ground Truth |
 | --- | --- | --- |---|

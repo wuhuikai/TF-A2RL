@@ -25,10 +25,15 @@
 
 <div class="centered row">
     <div>
-        <h2>
-            Input Image
-            <button onclick="crop()" class="button button-pill" id="choose">Choose File</button>
-        </h2>
+        <form>
+            <h2>
+                Input Image
+                <button onclick="crop()" class="button button-pill" id="choose">Choose File</button>
+                or
+                <input id="url" name="url" type="url" required placeholder="Enter an image url !">
+                <button onclick="crop_url()" class="button button-pill" id="choose_url">Upload</button>
+            </h2>
+        </form>
         <input id="file-input" type="file" name="name" style="display: none;"/>
     </div>
     <div>

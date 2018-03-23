@@ -26,7 +26,7 @@ function __crop__(image_src, get_input) {
     image.src = image_src
 
     Algorithmia.client("simYwF1W5IInfoMltCgjwEPem5G1")
-       .algo("algo://wuhuikai/A2RL_online/0.3.0")
+       .algo("algo://wuhuikai/A2RL_online/4e29ea0ed1136daa378957863d8a853bb4a7c8df")
        .pipe(get_input())
        .then(function(output) {
             console.log(output)
